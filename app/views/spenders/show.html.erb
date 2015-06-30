@@ -7,7 +7,11 @@
          method: :delete,
          data: { confirm: 'Are you sure?' } %> |
 
-<%= link_to 'Back', spenders_path %>
+<%= link_to 'Back', spenders_path %> 
+
+<br>
+
+<%= link_to 'Expenditures',spender_expenditures_path(@spender) %>
 
 
 

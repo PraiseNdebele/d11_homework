@@ -12,4 +12,4 @@ puts "Creating users..."
 Spender.delete_all
 
 Spender.create name: "Praise"
-Spender.create name: "Nhlanhla"
+Spender.create name: "John"
